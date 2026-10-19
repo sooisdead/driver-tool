@@ -1,0 +1,20 @@
+name: Предложить улучшение / Feature request
+description: Идея для новой возможности / An idea for a new feature
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Какую задачу нужно решить? / What problem should it solve?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Как это могло бы работать? / How could it work?
+  - type: markdown
+    attributes:
+      value: |
+        Принципы проекта: без рекламы и телеметрии; драйверы только из Windows Update и каталога Microsoft;
+        никаких автоматических установок без подтверждения. / Project principles: no ads or telemetry; drivers only from
+        Windows Update and the Microsoft Catalog; no silent installs.
